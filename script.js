@@ -2,19 +2,6 @@ const button = document.querySelector('#darkmode');
 const text = document.querySelector('.text');
 var timesClicked = 0;
 
-darkButton = (backgroundColor, color) => {
-    document.body.style.backgroundColor = 'black';
-    document.body.style.color = 'white';
-    document.querySelector('#link1').style.color = 'white';
-    document.querySelector('#link2').style.color = 'white';
-}
-whiteButton = (backgroundColor, color) => {
-    document.body.style.backgroundColor = 'white';
-    document.body.style.color = 'black';
-    document.querySelector('#link1').style.color = 'black';
-    document.querySelector('#link2').style.color = 'black';
-}
-
 button.addEventListener('click', function () {
     timesClicked++;
 
